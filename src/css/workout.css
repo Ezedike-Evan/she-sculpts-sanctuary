@@ -1,0 +1,10 @@
+.workout-container{
+    background: url('../../public/male_lifer.jpeg') center no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.workout-container div{
+    width: 100%;
+    height: 100%;
+    backdrop-filter:brightness(0.5) blur(7px);
+}

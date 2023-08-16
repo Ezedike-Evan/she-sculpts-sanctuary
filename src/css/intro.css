@@ -2,7 +2,7 @@
     width: 100vw;
     background: url('/1st_female_lifer.jpg') no-repeat center;
     background-size: cover;
-    height: 620px;
+    height: 100vh;
     display: flex;
 }
 .intro-container .intro-inner-container{
@@ -13,7 +13,13 @@
     flex-direction: column;
     justify-content: center;
 }
-.intro-inner-container h2,p,button{
+.intro-inner-container h2{
+    text-transform: uppercase;
+}
+.intro-inner-container p{
+    text-transform: uppercase;
+}
+.intro-inner-container button{
     text-transform: uppercase;
 }
 .intro-inner-container h2{

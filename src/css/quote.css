@@ -1,0 +1,11 @@
+.quote{
+    background-color: red;
+    text-align: center;
+    padding:25px 100px;
+}
+.quote h3{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+}

@@ -1,0 +1,36 @@
+.about-me-container{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+.about-me-container img{
+    width: 50%;
+}
+.about-me-container > div{
+    padding: 0 35px;
+    width: 50%;
+    word-spacing: 2px;
+}
+.about-me-container > div h3{
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.about-me-container > div h6{
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.about-me-container > div p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.about-me-container > div span{
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
