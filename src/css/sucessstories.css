@@ -1,0 +1,28 @@
+#stories{
+    background-color: red;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#stories h2{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#stories div{
+    width: 70%;
+    text-align: center;
+    margin-bottom: 35px;
+}
+#stories div h3{
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+#stories div h5{
+    font-weight: 700;
+}
+#stories div sub{
+    font-size: 10px;
+}

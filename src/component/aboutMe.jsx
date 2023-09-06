@@ -6,7 +6,7 @@ const AboutMe = ()=>{
             <img src='/me.jpg' alt='image of me' />
             <div>
                 <h3>About me</h3>
-                <h6>{"Welcome to michaelo L'enchengo's Fitness Hub!"}</h6>
+                <h6>Welcome to she sculpts sanctuary</h6>
                 <p>
                     {`Your Partner for Fitness Success
                     Greetings! I'm here to guide you through your fitness adventure. With a fervor for wellness, 
@@ -29,8 +29,7 @@ const AboutMe = ()=>{
                 <p>
                     {`Let's connect and discuss your goals. 
                     I'm excited to be a part of your journey towards a healthier, happier you.
-                    To your health,
-                    [Fitness Coach's Name]`}
+                    To your health, Michealo L'enchengo`}
                 </p>
             </div>
         </div>

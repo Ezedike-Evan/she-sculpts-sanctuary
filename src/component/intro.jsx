@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import '../css/intro.css'
 const Intro =()=>{
     return(
@@ -7,7 +8,8 @@ const Intro =()=>{
                     {"let's"} get <br/>
                     moving
                 </h2>
-                <p>michaelo {"l'enchengo"} - online fitness coach</p>
+                {/* <sub>for fitness is an art</sub> */}
+                <p>michaelo l'enchengo - online fitness coach</p>
                 <div className='intro-btn'>
                     <button>Get started</button>
                     <button>book now</button>
