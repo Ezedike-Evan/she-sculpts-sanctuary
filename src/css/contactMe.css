@@ -59,3 +59,29 @@
 #third-section #sent-email{
     width: 50%;
 }
+
+@media (max-width:780px) {
+    #third-section{
+        padding: 40px 40px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    #third-section #st-part .socials{
+        width: 100%;
+    }
+    #third-section #st-part h2,h4{
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+    #third-section #st-part h4{
+        margin: 15px 0 40px;
+    }
+    #third-section button{
+        font-size: 20px;
+        padding: 5px 30px;
+    }
+    #third-section #sent-email{
+        margin-top: 70px;
+        width: 80%;
+    }    
+}

@@ -36,3 +36,44 @@
     text-transform: uppercase;
     margin-bottom: 10px;
 }
+
+@media (max-width:780px) {
+    .about-me-container{
+        flex-direction: column;
+        padding:20px;
+        background-color: black;
+    }
+    .about-me-container img{
+        width: 100%;
+    }
+    .about-me-container > div{
+        padding: 0 5px;
+        text-align: center;
+        width: 100%;
+        word-spacing: 1px;
+    }
+    .about-me-container > div h3{
+        letter-spacing: 2px;
+        font-size: 15px;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+    }
+    .about-me-container > div h6{
+        letter-spacing: 1px;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .about-me-container > div p{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .about-me-container > div span{
+        letter-spacing: 1px;
+        font-size: 15px;
+        color: red;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }    
+}

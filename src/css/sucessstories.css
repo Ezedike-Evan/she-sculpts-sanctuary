@@ -26,3 +26,21 @@
 #stories div sub{
     font-size: 10px;
 }
+
+@media (max-width:780px) {
+    #stories div{
+        width: 70%;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    #stories div h3{
+        font-weight: 400;
+        margin-bottom: 12px;
+    }
+    #stories div h5{
+        font-weight: 700;
+    }
+    #stories div sub{
+        font-size: 10px;
+    }
+}

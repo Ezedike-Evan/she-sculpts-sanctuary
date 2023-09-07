@@ -1,6 +1,6 @@
 nav{
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
     background-color: rgba(0, 0, 0, 0.85);
     display: flex;
@@ -23,4 +23,9 @@ nav ul li:hover{
     color: red;
     font-weight: 700;
     transform: scale(1.1);
+}
+@media (max-width:780px) {
+    nav{
+        padding: 10px 25px 5px;
+    }
 }

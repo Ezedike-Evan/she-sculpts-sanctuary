@@ -1,8 +1,8 @@
 import '../css/navBar.css'
-const NavBar = ()=>{
+const NavBarDesktop = ()=>{
   return (
     <nav>
-      <h1> M L </h1> {/* should be later replaced with am img */}
+      <h1> M L </h1>
       <ul>
         <li>Home</li>
         <li>About</li>
@@ -15,4 +15,4 @@ const NavBar = ()=>{
   )
 }
 
-export default NavBar
+export default NavBarDesktop

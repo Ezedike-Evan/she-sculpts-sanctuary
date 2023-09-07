@@ -1,7 +1,8 @@
 import '../css/workout.css'
+
 const WorkOut = ()=>{
     return(
-        <div className='workout-container'>
+        <section id='workout' className='workout-container'>
             <div className='workout-inner-container'>                
                 <h3>
                     CHOOSE YOUR<br />
@@ -22,8 +23,9 @@ const WorkOut = ()=>{
                     <div className="workout-card">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
                     <div className="workout-card">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
                 </div>
+                <button>BOOK NOW</button>
             </div>
-        </div>
+        </section>
     )
 }
 

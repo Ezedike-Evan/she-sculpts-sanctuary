@@ -2,20 +2,20 @@
 import '../css/intro.css'
 const Intro =()=>{
     return(
-        <div className='intro-container'>
+        <section className='intro-container'>
             <div className='intro-inner-container'>
                 <h2>
-                    {"let's"} get <br/>
+                    let's get <br/>
                     moving
                 </h2>
                 {/* <sub>for fitness is an art</sub> */}
-                <p>michaelo l'enchengo - online fitness coach</p>
+                <p>michelle l'enchengo - online fitness coach</p>
                 <div className='intro-btn'>
                     <button>Get started</button>
-                    <button>book now</button>
+                    <a href="#workout"><button>book now</button></a> 
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

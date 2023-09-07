@@ -29,7 +29,7 @@ const AboutMe = ()=>{
                 <p>
                     {`Let's connect and discuss your goals. 
                     I'm excited to be a part of your journey towards a healthier, happier you.
-                    To your health, Michealo L'enchengo`}
+                    To your health, Michelle L'enchengo`}
                 </p>
             </div>
         </div>

@@ -13,13 +13,7 @@
     flex-direction: column;
     justify-content: center;
 }
-.intro-inner-container h2{
-    text-transform: uppercase;
-}
-.intro-inner-container p{
-    text-transform: uppercase;
-}
-.intro-inner-container button{
+.intro-inner-container h2,p,button{
     text-transform: uppercase;
 }
 .intro-inner-container h2{
@@ -43,7 +37,7 @@
     font-size: 18px;
     font-weight: 700;
     padding: 12px 25px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .intro-btn button:hover{
     cursor: pointer;
@@ -58,4 +52,24 @@
     background-color: red;
     border: 1px solid red;
     color: black;
+}
+
+@media (max-width:780px) {
+    .intro-container .intro-inner-container{
+        padding: 190px 25px 0;
+    }
+    .intro-inner-container h2{
+        font-size: 45px;
+    }
+    .intro-inner-container p{
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    .intro-btn button{
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    .intro-btn button:first-child{
+        margin-right:10px;
+    }
 }

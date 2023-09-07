@@ -5,13 +5,13 @@ const ContactMe = ()=>{
     return(
         <section id="third-section">
             <div id='st-part'>
-                <h2>michaelo l'enchengo</h2>
+                <h2>michelle l'enchengo</h2>
                 <h4>fitness coach</h4>
                 <p>
                     50 prince francine street <br />
                     chicago, CA 94158
                 </p>
-                <p>Tel : 123-456-7890</p>
+                <p>Tel : +234-706-677-0242</p>
                 <p>mr.morningsta6@gmail.com</p>
                 <div className='socials'>
                     <a href=""><LiaFacebookF /></a>

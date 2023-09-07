@@ -2,10 +2,22 @@
     background-color: red;
     text-align: center;
     padding:25px 100px;
+    width: 100vw;
 }
 .quote h3{
     letter-spacing: 3px;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 30px;
+}
+
+
+@media (max-width:780px) {
+    .quote{
+        padding:25px 50px;
+    }
+    .quote h3{
+        letter-spacing: 1px;
+        font-size: 20px;
+    }    
 }
