@@ -1,5 +1,6 @@
 import './App.css'
-import AboutMe from './component/aboutMe'
+import AboutMeDesktop from './component/aboutMeDesktop'
+import AboutMeMobile from './component/aboutMeMobile'
 import ContactMe from './component/contactMe'
 import Footer from './component/footer'
 import Intro from './component/intro'
@@ -17,8 +18,13 @@ const App = ()=>{
     }
       <Intro />
       <Quote />
-      <AboutMe />
+    {
+      (window.innerWidth >= 1000) ? <AboutMeDesktop /> : <AboutMeMobile />
+    }
       <WorkOut />
+    {
+      (window.innerWidth <= 430) ? <h2 className='stories'>success stories</h2> : ''
+    }
       <div id='end'></div>
       <div id='stories-container'>
         <SuccessStories />

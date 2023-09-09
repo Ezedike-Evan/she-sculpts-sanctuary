@@ -1,12 +1,12 @@
 import '../css/aboutme.css'
 
-const AboutMe = ()=>{
+const AboutMeMobile = ()=>{
     return(
         <div className='about-me-container'>
+            <h3>About me</h3>
+            <h6>Welcome to she sculpts sanctuary</h6>
             <img src='/me.jpg' alt='image of me' />
             <div>
-                <h3>About me</h3>
-                <h6>Welcome to she sculpts sanctuary</h6>
                 <p>
                     {`Your Partner for Fitness Success
                     Greetings! I'm here to guide you through your fitness adventure. With a fervor for wellness, 
@@ -36,4 +36,4 @@ const AboutMe = ()=>{
     )
 }
 
-export default AboutMe
+export default AboutMeMobile

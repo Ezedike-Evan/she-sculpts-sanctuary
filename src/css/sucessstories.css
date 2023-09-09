@@ -27,20 +27,21 @@
     font-size: 10px;
 }
 
-@media (max-width:780px) {
+@media (max-width:430px) {
+    #stories{
+        width: 100%;
+        height: 400px;
+    }
+    #stories h2{
+        visibility: hidden;
+        margin-bottom: 0;
+    }
     #stories div{
-        width: 70%;
-        text-align: center;
-        margin-bottom: 35px;
+        width: 80%;
+        margin-bottom: 25px;
     }
     #stories div h3{
         font-weight: 400;
         margin-bottom: 12px;
-    }
-    #stories div h5{
-        font-weight: 700;
-    }
-    #stories div sub{
-        font-size: 10px;
     }
 }

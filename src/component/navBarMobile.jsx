@@ -6,10 +6,10 @@ const NavBarMobile = ()=>{
         <nav>
             <h1> M L </h1>
             <ul>
-                <li><a href=""><LiaFacebookF /></a></li>
-                <li><a href=""><LiaTwitter /></a></li>
-                <li><a href=""><LiaInstagram /></a></li>
-                <li><a href=""><LiaLinkedinIn /></a></li>
+                <li><a href=""><LiaFacebookF size={30}/></a></li>
+                <li><a href=""><LiaTwitter size={30}/></a></li>
+                <li><a href=""><LiaInstagram size={30}/></a></li>
+                <li><a href=""><LiaLinkedinIn size={30}/></a></li>
             </ul>
         </nav>
     )

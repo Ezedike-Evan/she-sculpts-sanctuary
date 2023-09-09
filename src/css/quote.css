@@ -11,7 +11,6 @@
     font-size: 30px;
 }
 
-
 @media (max-width:780px) {
     .quote{
         padding:25px 50px;
@@ -19,5 +18,13 @@
     .quote h3{
         letter-spacing: 1px;
         font-size: 20px;
+    }    
+}
+@media (max-width:430px) {
+    .quote{
+        padding:15px 25px;
+    }
+    .quote h3{
+        font-size: 15px;
     }    
 }

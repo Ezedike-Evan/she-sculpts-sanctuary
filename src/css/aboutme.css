@@ -3,6 +3,7 @@
     align-items: center;
     width: 100vw;
     background-color: black;
+    padding: 20px 0;
 }
 .about-me-container img{
     width: 50%;
@@ -50,17 +51,19 @@
         padding: 0 5px;
         text-align: center;
         width: 100%;
+        margin-top: 20px;
         word-spacing: 1px;
     }
-    .about-me-container > div h3{
+    .about-me-container > h3{
         letter-spacing: 2px;
         font-size: 15px;
         margin-bottom: 5px;
         text-transform: uppercase;
     }
-    .about-me-container > div h6{
+    .about-me-container > h6{
         letter-spacing: 1px;
         font-size: 20px;
+        text-align: center;
         text-transform: uppercase;
         margin-bottom: 20px;
     }
@@ -76,4 +79,16 @@
         text-transform: uppercase;
         margin-bottom: 10px;
     }    
+}
+
+@media (max-width:430px) {
+    .about-me-container > h3{
+        font-size: 13px;
+    }
+    .about-me-container > h6{
+        font-size: 18px;
+    }
+    .about-me-container > div p{
+        font-size: 13px;
+    }
 }
